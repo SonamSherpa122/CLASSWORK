@@ -12,6 +12,7 @@ public class LoopDay6 {
         System.out.println("5. EXIT");
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Select your Withdrawn Amount: ");
         int choose = scanner.nextInt();
 
         switch (choose) {
